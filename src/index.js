@@ -11,8 +11,9 @@ import Home from './components/home'
 import Item0 from './components/item0'
 import Item1 from './components/item1'
 
+
 ReactDOM.render(
-  <Router>
+  <Router basename="/joonline">
     <App>
       <Route exact path="/" component={Home}/>
       <Route path="/item0" component={Item0}/>
